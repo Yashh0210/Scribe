@@ -78,7 +78,7 @@ const Blog = () => {
             </h2>
           )}
           <p className='inline-block py-1.5 px-4 rounded-full mb-10 border border-[#E5E5E3] bg-[#F9F9F8] text-sm text-[#555555] font-medium font-body'>
-            Michael Brown
+            Yash Yadav
           </p>
         </div>
 
