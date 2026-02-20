@@ -87,7 +87,8 @@ const AddBlog = () => {
         <label className='block text-sm font-medium text-[#374151] mb-1'>Upload thumbnail</label>
         <label htmlFor="image" className='block'>
             <img src={!image ? assets.upload_area : URL.createObjectURL(image)} alt="" className='mt-2 h-16 rounded-md cursor-pointer border border-[#E5E5E3]'/>
-            <input onChange={(e)=> setImage(e.files[0])} type="file" id='image' hidden required/>
+           <input onChange={(e)=> setImage(e.target.files[0])} type="file" id='image' hidden required/>
+
         </label>
 
         <label className='block text-sm font-medium text-[#374151] mt-4 mb-1'>Blog title</label>
