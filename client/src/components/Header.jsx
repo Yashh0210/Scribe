@@ -23,16 +23,20 @@ const Header = () => {
       <div className='hero-background relative min-h-[100svh] flex items-center justify-center px-4 sm:px-8 pt-20 pb-32'>
         <div className='max-w-4xl mx-auto text-center w-full py-20 sm:py-24 relative z-10'>
           <div className='inline-flex items-center justify-center gap-3 px-4 py-1.5 mb-8 border border-white/20 bg-white/10 backdrop-blur-sm rounded-full text-xs sm:text-sm text-white font-body'>
-            <p>New: AI feature integrated</p>
+            <p>New blog every Friday</p>
             <img src={assets.star_icon} className='w-2.5' alt="" />
           </div>
 
           <h1 className='font-heading text-[48px] sm:text-[64px] md:text-[72px] font-normal leading-[1.1] text-white mb-6'>
-            Your own <span className='text-primary italic'>blogging</span> <br className='hidden sm:block'/> platform.
+            SCRIBE<span className='text-primary italic'></span> <br className='hidden sm:block'/>
           </h1>
 
           <p className='my-8 sm:my-10 max-w-2xl mx-auto text-base sm:text-lg text-white/90 leading-relaxed font-body'>
-            This is your space to think out loud, to share what matters, and to write without filters. Whether it's one word or a thousand, your story starts right here.
+          - By Yash
+          <br />
+           A carefully crafted blog where ideas take shape and conversations begin.
+           Every post is written and curated with intention.
+           
           </p>
 
           <form
