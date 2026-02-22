@@ -28,7 +28,7 @@ const Header = () => {
           </div>
 
           <h1 className='font-heading text-[48px] sm:text-[64px] md:text-[72px] font-normal leading-[1.1] text-white mb-6'>
-            SCRIBE<span className='text-primary italic'></span> <br className='hidden sm:block'/>
+            Scribe<span className='text-primary italic'></span> <br className='hidden sm:block'/>
           </h1>
 
           <p className='my-8 sm:my-10 max-w-2xl mx-auto text-base sm:text-lg text-white/90 leading-relaxed font-body'>
